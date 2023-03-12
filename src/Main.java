@@ -44,6 +44,9 @@ public class Main {
                             ps.setString(4, txtAnio.getText());
                             ps.setString(5, textCombustible.getSelectedItem().toString());
                             ps.setString(6, txtEstado.getSelectedItem().toString());
+                            
+                            //Integer.parseInt(ComboboxAnio.getSelectedItem().toString()
+                            //String ar =Comboboxar.getSelectedItem().toString();
                         }
                     }catch (SQLException es){
                         System.out.println("Error: " + es + "||||");
